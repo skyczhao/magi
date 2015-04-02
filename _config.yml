@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 十三羽
 subtitle:
 description:
-author: John Doe
+author: Tobin
 language:
 timezone:
 
@@ -67,4 +67,7 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@gitcafe.com:skyczhao/skyczhao.git
+  branch: gitcafe-pages
+  message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
