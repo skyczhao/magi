@@ -1,10 +1,7 @@
-title: "setup a hexo blog"
+title: "博客搭建"
 date: 2015-04-15 14:57:08
 tags: 配置文档
 ---
-
-hexo博客搭建
------
 
 ### 安装
 1. git
