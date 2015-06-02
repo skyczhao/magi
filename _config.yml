@@ -71,3 +71,7 @@ deploy:
   repo: git@gitcafe.com:skyczhao/skyczhao.git
   branch: gitcafe-pages
   message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
+
+# Disqus
+disqus_shortname: thirteenyu
+
