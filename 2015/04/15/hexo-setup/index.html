@@ -135,6 +135,18 @@ Node.js
 </li>
 </ul>
 </li>
+<li>添加Disqus评论<ol>
+<li><a href="https://disqus.com" target="_blank" rel="external">Disqus</a><ul>
+<li>注册</li>
+<li><code>Setting -&gt; Add Disqus To Site</code>，填写好相关的资料，期间就能看到<code>shortname</code>了</li>
+<li>完成后，选<code>Universal Code</code></li>
+<li>然而并没有什么卵用（什么！我竟然说这种话？），因为<code>hexo</code>已经很好地集成了<code>Disqus</code>，所以只需要<code>shortname</code>即可</li>
+</ul>
+</li>
+<li>直接加到配置文件里面<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="keyword">disqus_shortname</span>:<span class="sqbracket"> [在disqus上申请的shortname]</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
 </ul>
 </li>
 </ol>
@@ -156,7 +168,9 @@ Node.js
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.thirteenyu.com/2015/04/15/hexo-setup/" data-id="ci99e6ncc000663dedpydj7mp" class="article-share-link">Share</a>
+      <a data-url="http://www.thirteenyu.com/2015/04/15/hexo-setup/" data-id="ciaf9u0nc0009k7de4a4cw8s7" class="article-share-link">Share</a>
+      
+        <a href="http://www.thirteenyu.com/2015/04/15/hexo-setup/#disqus_thread" class="article-comment-link">Comments</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/配置文档/">配置文档</a></li></ul>
@@ -187,6 +201,12 @@ Node.js
   
 </article>
 
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 </section>
         
           <aside id="sidebar">
@@ -197,7 +217,7 @@ Node.js
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/图形/">图形</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/配置文档/">配置文档</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/图形/">图形</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/配置文档/">配置文档</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/面试准备/">面试准备</a><span class="tag-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -206,7 +226,7 @@ Node.js
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/图形/" style="font-size: NaNpx;">图形</a><a href="/tags/配置文档/" style="font-size: NaNpx;">配置文档</a>
+      <a href="/tags/图形/" style="font-size: 10px;">图形</a><a href="/tags/配置文档/" style="font-size: 10px;">配置文档</a><a href="/tags/面试准备/" style="font-size: 20px;">面试准备</a>
     </div>
   </div>
 
@@ -215,7 +235,7 @@ Node.js
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">4</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
@@ -227,6 +247,14 @@ Node.js
       <ul>
         
           <li>
+            <a href="/2015/05/07/effective-cpp/">Effective C++</a>
+          </li>
+        
+          <li>
+            <a href="/2015/05/07/python-started/">Python入门</a>
+          </li>
+        
+          <li>
             <a href="/2015/05/04/booklist/">书单</a>
           </li>
         
@@ -236,14 +264,6 @@ Node.js
         
           <li>
             <a href="/2015/04/15/hexo-setup/">博客搭建</a>
-          </li>
-        
-          <li>
-            <a href="/2015/04/11/history/">博客历史</a>
-          </li>
-        
-          <li>
-            <a href="/2015/04/02/hello/">Hello World</a>
           </li>
         
       </ul>
@@ -274,6 +294,20 @@ Node.js
   
 </nav>
     
+<script>
+  var disqus_shortname = 'thirteenyu';
+  
+  var disqus_url = 'http://www.thirteenyu.com/2015/04/15/hexo-setup/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
