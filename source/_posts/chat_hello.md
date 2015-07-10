@@ -1,6 +1,6 @@
 title: "Hello World"
 date: 2015-04-02 15:46:37
-tags: 
+tags: 闲谈
 ---
 
 Hello World
