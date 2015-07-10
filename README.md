@@ -1,7 +1,7 @@
 Tobin's Home
 =====
 
-By [hexo](http://hexo.io/)
+By [hexo](http://hexo.io/).
 
 简写说明
 -----
