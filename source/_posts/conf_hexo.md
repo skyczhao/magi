@@ -59,7 +59,7 @@ tags: 配置
             - 注册
             - `Setting -> Add Disqus To Site`，填写好相关的资料，期间就能看到`shortname`了
             - 完成后，选`Universal Code`
-            - 然而并没有什么卵用（什么！我竟然说这种话？），因为`hexo`已经很好地集成了`Disqus`，所以只需要`shortname`即可
+            - 然而并没有什么卵用，因为`hexo`已经很好地集成了`Disqus`，所以只需要`shortname`即可
         2. 直接加到配置文件里面
         ```
         # Disqus

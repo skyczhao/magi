@@ -67,7 +67,12 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
+  repo: git@github.com:skyczhao/skyczhao.github.io.git
+  branch: master
+  message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
+
+- type: git
   repo: git@gitcafe.com:skyczhao/skyczhao.git
   branch: gitcafe-pages
   message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
