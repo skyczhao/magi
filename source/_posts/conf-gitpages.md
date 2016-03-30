@@ -3,7 +3,7 @@ date: 2015-10-31 14:24:00
 tags: 配置
 ---
 
-## github
+## [github](https://github.com/)
 1. 创建一个以用户名命名的仓库
 	* 新建仓库，属性为public，命名：[username].github.io，例如：skyczhao.github.io
 	* 这个仓库master分支会被直接用于页面显示
@@ -27,7 +27,7 @@ tags: 配置
 	* 记录值填刚刚的地址：[username].github.io
 
 	
-## gitcafe
+## [gitcafe](https://gitcafe.com/)
 1. 创建一个以用户名命名的仓库
 	* 直接以用户名为命名即可，命名：[username]
 	* 与github不同，这里用于显示的分支为：gitcafe-pages
@@ -39,3 +39,10 @@ tags: 配置
 ### 绑定域名(可选项)
 1. 大体设置差不多
 2. 记录值改为：gitcafe.io
+
+## [coding](https://coding.net)
+1. 创建一个以用户名命名的仓库
+2. 往默认的`coding-pages`分支添加index.html
+3. 在项目设置中，找到pages，启动服务
+4. 打开主页
+	* [username].coding.me

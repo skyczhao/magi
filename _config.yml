@@ -73,8 +73,8 @@ deploy:
   message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
 
 - type: git
-  repo: git@gitcafe.com:skyczhao/skyczhao.git
-  branch: gitcafe-pages
+  repo: git@git.coding.net:skyczhao/skyczhao.git
+  branch: coding-pages
   message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
 
 # Disqus
