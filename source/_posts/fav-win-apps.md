@@ -17,7 +17,7 @@ tags: 收藏
 3. Photoshop
 4. SmartGit
     如果需要SSH Keys，可以利用上面的GitHub for Windows，它带有Git Shell
-    然后使用`ssh-keygen.exe -t rsa -C "example@email.com"`生成key， 默认在`C:\Users\Tobin\.ssh`中可以找到`id_rsa`以及`id_rsa.pub`
+    然后使用`ssh-keygen.exe -t rsa -C "example@email.com"`生成key， 默认在`C:\Users\[用户名]\.ssh`中可以找到`id_rsa`以及`id_rsa.pub`
 5. JetBrains
     * PyCharm
     * IntelliJ IDEA
