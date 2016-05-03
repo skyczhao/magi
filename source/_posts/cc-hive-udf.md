@@ -1,6 +1,6 @@
-title: hive udf
+title: "hive udf/udaf"
 date: 2016-01-05 01:02:43
-tags: [hive,大数据]
+tags: [大数据,hive]
 ---
 
 ## 关于hive

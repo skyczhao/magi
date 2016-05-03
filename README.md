@@ -5,8 +5,10 @@ By [hexo](http://hexo.io/).
 
 简写说明
 -----
-* iv: interview
+* td: TODO
 * bl: book list
-* fe: front end
-* be: back end
+* cc: cloud computing
+* cg: computer graphic
 * conf: configuration
+* chat: 闲聊
+* fav: favorite

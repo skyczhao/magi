@@ -1,6 +1,6 @@
 title: "SVG"
 date: 2015-04-28 15:08:40
-tags: [图形,前端]
+tags: 图形
 ---
 
 SVG入门
