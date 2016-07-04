@@ -8,6 +8,8 @@ tags: [大数据,hive]
 * Hive把SQL查询转换为一系列在Hadoop集群中运行的MapReduce作业，是MapReduce更高层次的抽象，不用编写具体的MapReduce方法
 * Hive将数据组织为表，这就使得HDFS上的数据有了结构，元数据即表的模式，都存储在名为metastore的数据库中
 
+<!--more-->
+
 ## UDAF开发
 1. 处理阶段解析
 ``` java

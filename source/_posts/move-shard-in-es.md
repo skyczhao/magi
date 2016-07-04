@@ -11,6 +11,7 @@ tags: ElasticSearch
 <img src="{% asset_path 0.png %}" alt="" />
 于是就有了“搬动”的需求。
 
+<!--more-->
 
 “搬动”
 -----
