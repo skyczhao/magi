@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Encode/Decode</title>
+
+    <style type="text/css">
+        html, body, article {
+            height: 90%;
+        }
+
+        .text {
+            width: 49%;
+            height: 100%;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <textarea id="view" class="text left">伊利</textarea>
+        <textarea id="code" class="text right">%E4%BC%8A%E5%88%A9</textarea>
+    </article>
+</body>
+<script type="text/javascript">
+    document.getElementById("view").addEventListener("change", function() {
+        var viewText = document.getElementById("view").value;
+        var code = document.getElementById("code");
+
+        code.value = encodeURI(viewText);
+    });
+
+    document.getElementById("code").addEventListener("change", function() {
+        var codeText = document.getElementById("code").value;
+        var view = document.getElementById("view");
+
+        view.value = decodeURI(codeText);
+    });
+</script>
+</html>
