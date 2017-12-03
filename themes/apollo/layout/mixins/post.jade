@@ -3,6 +3,8 @@ mixin postInfo(item)
         != full_date(item.date, 'll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
+        if is_post()
+            span(id="busuanzi_value_site_pv")
 
 //- Index Page
 mixin posts()
