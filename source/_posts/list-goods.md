@@ -14,3 +14,8 @@ tags: [推荐]
 
 ## 站点
 台湾的一个论文下载网站：http://sci-hub.tw/
+
+## APP
+* Typora: https://www.typora.io 
+
+<img src="{% asset_path Typora.icns %}" alt="" width="" height="" />
