@@ -4,8 +4,8 @@ desc:
 tags: [PMP] 
 ---
 
-图略大，详情可见。
+<img src="{% asset_path pmbok-pre3.svg %}" alt="" width="1000" height="750" />
 
 <!-- more -->
 
-<embed id="embed" src="{% asset_path pmbok-pre3.svg %}" type="image/svg+xml" />
+请右键新窗口打开图片。为了格式美观，本页只显示小图。原图为SVG格式，支持放大。
