@@ -1,7 +1,7 @@
 title: PMBOK第六版中文版
 date: 2018-04-21 21:27:20
 desc: 
-tags: [分享] 
+tags: [PMP, 分享] 
 ---
 
 今天被整烦了。
