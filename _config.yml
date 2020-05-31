@@ -73,7 +73,7 @@ deploy:
   message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
 
 - type: git
-  repo: git@git.coding.net:skyczhao/skyczhao.git
+  repo: git@e.coding.net:skyczhao/skyczhao.git
   branch: coding-pages
   message: Site updated:{{ now("YYYY-MM-DD HH:mm:ss") }}
 
